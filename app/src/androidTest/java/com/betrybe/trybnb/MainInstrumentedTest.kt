@@ -109,7 +109,7 @@ class MainInstrumentedTest {
 
     @Test
     fun test_req_4_crie_a_estrutura_do_fragmento_perfil() {
-        onView(withId(getId("profile_menu_tem"))).perform(click())
+        onView(withId(getId("profile_menu_item"))).perform(click())
 
         onView(withId(getId("profile_scroll_view")))
 

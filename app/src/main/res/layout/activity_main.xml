@@ -40,7 +40,7 @@
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
         app:labelVisibilityMode="labeled"
-        app:menu="@menu/botton_navigation_menu"
+        app:menu="@menu/bottom_navigation_menu"
         android:id="@+id/navigation_bottom_view"/>
 
 </LinearLayout>
