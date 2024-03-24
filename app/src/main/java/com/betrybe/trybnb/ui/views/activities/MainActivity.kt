@@ -6,7 +6,6 @@ import com.betrybe.trybnb.R
 import com.betrybe.trybnb.ui.views.fragments.CreateReservationFragment
 import com.betrybe.trybnb.ui.views.fragments.ProfileFragment
 import com.betrybe.trybnb.ui.views.fragments.ReservationFragment
-import com.google.android.material.bottomnavigation.BottomNavigationMenuView
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {

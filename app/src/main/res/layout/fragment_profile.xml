@@ -4,14 +4,14 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/profile_scroll_view"
-    android:scrollbars="none">
+    android:fadeScrollbars="true">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_margin="16dp"
-        android:layout_gravity="center"
+        android:gravity="center"
         android:id="@+id/profile_container">
 
         <ImageView
@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="50dp"
             app:startIconDrawable="@drawable/ic_password"
-            app:endIconMode="password_toggle"
+            app:passwordToggleEnabled="true"
             android:hint="Password"
             android:id="@+id/password_input_profile">
 
@@ -50,6 +50,14 @@
                 android:layout_height="match_parent"/>
 
         </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Login realizado com sucesso"
+            android:textAlignment="center"
+            android:visibility="invisible"
+            android:layout_height="wrap_content"
+            android:id="@+id/success"/>
 
         <Button
             android:layout_width="match_parent"
